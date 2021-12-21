@@ -44,10 +44,10 @@
             android:id="@+id/tourismFragment"
             android:icon="@drawable/ic_baseline_streetview_24"
             android:title="Tourism" />
-        <item
-            android:id="@+id/sportsFragment"
-            android:icon="@drawable/ic_baseline_streetview_24"
-            android:title="Tourism" />
+<!--        <item-->
+<!--            android:id="@+id/aboutFragment"-->
+<!--            android:icon="@drawable/ic_baseline_streetview_24"-->
+<!--            android:title="Tourism" />-->
     </group>
 
 </menu>

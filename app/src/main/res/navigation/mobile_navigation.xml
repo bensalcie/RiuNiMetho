@@ -74,4 +74,9 @@
         android:name="app.riunimetho.SportsFragment"
         android:label="Culture &amp; Sports"
         tools:layout="@layout/fragment_sports" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="app.riunimetho.AboutFragment"
+        android:label="About Tharaka Nithi County"
+        tools:layout="@layout/fragment_about" />
 </navigation>
