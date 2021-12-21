@@ -9,17 +9,69 @@
         android:id="@+id/nav_home"
         android:name="app.riunimetho.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_slideshow"
+            app:destination="@id/nav_slideshow" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="app.riunimetho.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="Afya Bora"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="app.riunimetho.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="Ukulima Bora"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/tourismFragment"
+        android:name="app.riunimetho.TourismFragment"
+        android:label="Tourism"
+        tools:layout="@layout/fragment_tourism" />
+    <fragment
+        android:id="@+id/uchumi"
+        android:name="app.riunimetho.uchumi"
+        android:label="Uchumi Bora"
+        tools:layout="@layout/fragment_uchumi" />
+    <fragment
+        android:id="@+id/mwangazaFragment"
+        android:name="app.riunimetho.MwangazaFragment"
+        android:label="Mwangaza Bora"
+        tools:layout="@layout/fragment_mwangaza" />
+    <fragment
+        android:id="@+id/youthsFragment"
+        android:name="app.riunimetho.youthsFragment"
+        android:label="Youths Empowerment"
+        tools:layout="@layout/fragment_youths" />
+    <fragment
+        android:id="@+id/usafiriFragment"
+        android:name="app.riunimetho.usafiriFragment"
+        android:label="Usafiri Bora"
+        tools:layout="@layout/fragment_usafiri" />
+    <fragment
+        android:id="@+id/masomoFragment"
+        android:name="app.riunimetho.MasomoFragment"
+        android:label="Masomo  Bora"
+        tools:layout="@layout/fragment_masomo" />
+    <fragment
+        android:id="@+id/ukulimaFragment"
+        android:name="app.riunimetho.UkulimaFragment"
+        android:label="Ukulima Bora"
+        tools:layout="@layout/fragment_ukulima" />
+    <fragment
+        android:id="@+id/afyaFragment"
+        android:name="app.riunimetho.AfyaFragment"
+        android:label="Afya Bora"
+        tools:layout="@layout/fragment_afya" />
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="app.riunimetho.SportsFragment"
+        android:label="Culture &amp; Sports"
+        tools:layout="@layout/fragment_sports" />
 </navigation>

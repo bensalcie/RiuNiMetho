@@ -6,15 +6,48 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_baseline_fiber_new_24"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/afyaFragment"
+            android:icon="@drawable/ic_baseline_local_hospital_24"
+            android:title="Afya Bora" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/ukulimaFragment"
+            android:icon="@drawable/ic_baseline_bike_scooter_24"
+            android:title="Ukulima Bora" />
+        <item
+            android:id="@+id/masomoFragment"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Masomo Bora" />
+        <item
+            android:id="@+id/usafiriFragment"
+            android:icon="@drawable/ic_baseline_directions_transit_24"
+            android:title="Usafiri Bora" />
+        <item
+            android:id="@+id/uchumi"
+            android:icon="@drawable/ic_baseline_grass_24"
+            android:title="Uchumi Bora" />
+        <item
+            android:id="@+id/mwangazaFragment"
+            android:icon="@drawable/ic_baseline_highlight_24"
+            android:title="Mwangaza Mashinani" />
+        <item
+            android:id="@+id/youthsFragment"
+            android:icon="@drawable/ic_baseline_emoji_people_24"
+            android:title="Youth Empowerment" />
+        <item
+            android:id="@+id/sportsFragment"
+            android:icon="@drawable/ic_baseline_emoji_people_24"
+            android:title="Cultural &amp; Sports" />
+        <item
+            android:id="@+id/tourismFragment"
+            android:icon="@drawable/ic_baseline_streetview_24"
+            android:title="Tourism" />
+        <item
+            android:id="@+id/sportsFragment"
+            android:icon="@drawable/ic_baseline_streetview_24"
+            android:title="Tourism" />
     </group>
+
 </menu>
